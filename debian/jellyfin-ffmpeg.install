@@ -1,2 +1,2 @@
-ffmpeg usr/lib/jellyfin-ffmpeg
-ffprobe usr/lib/jellyfin-ffmpeg
+ffmpeg usr/lib/veso-ffmpeg
+ffprobe usr/lib/veso-ffmpeg

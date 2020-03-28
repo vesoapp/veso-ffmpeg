@@ -1,6 +1,6 @@
 ---
 # We just wrap `build` so this is really it
-name: "jellyfin-ffmpeg"
+name: "veso-ffmpeg"
 version: "4.2.1-4"
 packages:
   - stretch-amd64

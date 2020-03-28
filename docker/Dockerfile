@@ -2,7 +2,7 @@
 #
 # From https://trac.ffmpeg.org/wiki/CompilationGuide/Ubuntu
 #
-# https://hub.docker.com/r/jellyfin/ffmpeg/
+# https://hub.docker.com/r/veso/ffmpeg/
 #
 #
 FROM        ubuntu:18.04 AS base
@@ -329,7 +329,7 @@ COPY debian/patches/*.patch /tmp/ffmpeg/
 RUN \
         DIR=/tmp/ffmpeg && mkdir -p ${DIR} && cd ${DIR} && \
         for patch in *.patch; do \
-            filename="$( grep '+++' ${patch} | awk '{ print $2 }' | sed 's|jellyfin-ffmpeg/||' )"; \
+            filename="$( grep '+++' ${patch} | awk '{ print $2 }' | sed 's|veso-ffmpeg/||' )"; \
             patch --verbose ${filename} ${patch}; \
         done && \
 
@@ -387,7 +387,7 @@ RUN \
         cp qt-faststart ${PREFIX}/bin
 
 FROM        base AS release
-LABEL maintainer="team@jellyfin.org"
+LABEL maintainer="team@veso.tv"
 
 CMD         ["--help"]
 ENTRYPOINT  ["ffmpeg"]

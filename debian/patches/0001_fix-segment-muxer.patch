@@ -1,7 +1,7 @@
-Index: jellyfin-ffmpeg/libavformat/segment.c
+Index: veso-ffmpeg/libavformat/segment.c
 ===================================================================
---- jellyfin-ffmpeg.orig/libavformat/segment.c	2019-10-02 13:05:57.119005772 -0400
-+++ jellyfin-ffmpeg/libavformat/segment.c	2019-10-02 13:06:11.367388679 -0400
+--- veso-ffmpeg.orig/libavformat/segment.c	2019-10-02 13:05:57.119005772 -0400
++++ veso-ffmpeg/libavformat/segment.c	2019-10-02 13:06:11.367388679 -0400
 @@ -87,6 +87,7 @@
      int64_t last_val;      ///< remember last time for wrap around detection
      int cut_pending;

@@ -1,7 +1,7 @@
-Index: jellyfin-ffmpeg/libavcodec/amfenc.c
+Index: veso-ffmpeg/libavcodec/amfenc.c
 ===================================================================
---- jellyfin-ffmpeg.orig/libavcodec/amfenc.c
-+++ jellyfin-ffmpeg/libavcodec/amfenc.c
+--- veso-ffmpeg.orig/libavcodec/amfenc.c
++++ veso-ffmpeg/libavcodec/amfenc.c
 @@ -213,6 +213,7 @@ static int amf_init_from_dxva2_device(AV
  static int amf_init_context(AVCodecContext *avctx)
  {
@@ -42,10 +42,10 @@ Index: jellyfin-ffmpeg/libavcodec/amfenc.c
          return ret;
      }
      memcpy(pkt->data, buffer->pVtbl->GetNative(buffer), size);
-Index: jellyfin-ffmpeg/libavcodec/amfenc_h264.c
+Index: veso-ffmpeg/libavcodec/amfenc_h264.c
 ===================================================================
---- jellyfin-ffmpeg.orig/libavcodec/amfenc_h264.c
-+++ jellyfin-ffmpeg/libavcodec/amfenc_h264.c
+--- veso-ffmpeg.orig/libavcodec/amfenc_h264.c
++++ veso-ffmpeg/libavcodec/amfenc_h264.c
 @@ -366,6 +366,7 @@ static const AVCodecDefault defaults[] =
      { "b",          "2M"  },
      { "g",          "250" },
@@ -54,10 +54,10 @@ Index: jellyfin-ffmpeg/libavcodec/amfenc_h264.c
      { NULL                },
  };
  
-Index: jellyfin-ffmpeg/libavcodec/amfenc_hevc.c
+Index: veso-ffmpeg/libavcodec/amfenc_hevc.c
 ===================================================================
---- jellyfin-ffmpeg.orig/libavcodec/amfenc_hevc.c
-+++ jellyfin-ffmpeg/libavcodec/amfenc_hevc.c
+--- veso-ffmpeg.orig/libavcodec/amfenc_hevc.c
++++ veso-ffmpeg/libavcodec/amfenc_hevc.c
 @@ -69,7 +69,7 @@ static const AVOption options[] = {
      { "gop",            "", 0, AV_OPT_TYPE_CONST, { .i64 = AMF_VIDEO_ENCODER_HEVC_HEADER_INSERTION_MODE_GOP_ALIGNED }, 0, 0, VE, "hdrmode" },
      { "idr",            "", 0, AV_OPT_TYPE_CONST, { .i64 = AMF_VIDEO_ENCODER_HEVC_HEADER_INSERTION_MODE_IDR_ALIGNED }, 0, 0, VE, "hdrmode" },

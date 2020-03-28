@@ -1,53 +1,53 @@
-jellyfin-ffmpeg (4.2.1-6) unstable; urgency=medium
+veso-ffmpeg (4.2.1-6) unstable; urgency=medium
 
   * Update AMD AMF files to support Linux
 
  -- nyanmisaka <nst799610810@gmail.com>  Tue, 25 Feb 2020 17:33:28 +0800
 
-jellyfin-ffmpeg (4.2.1-5) unstable; urgency=medium
+veso-ffmpeg (4.2.1-5) unstable; urgency=medium
 
   * Add support for Debian Bullseye (testing)
 
  -- Joshua Boniface <joshua@boniface.me>  Wed, 19 Feb 2020 11:39:13 -0400
 
-jellyfin-ffmpeg (4.2.1-4) unstable; urgency=medium
+veso-ffmpeg (4.2.1-4) unstable; urgency=medium
 
   * Add support for AMD AMF encoding on amd64
 
  -- nyanmisaka <nst799610810@gmail.com>  Thu, 16 Jan 2020 02:55:28 +0800
 
-jellyfin-ffmpeg (4.2.1-3) unstable; urgency=medium
+veso-ffmpeg (4.2.1-3) unstable; urgency=medium
 
   * Support MMAL hardware acceleration on armhf (Raspbian)
 
  -- Joshua Boniface <joshua@boniface.me>  Sat, 02 Nov 2019 21:40:48 -0400
 
-jellyfin-ffmpeg (4.2.1-2) unstable; urgency=medium
+veso-ffmpeg (4.2.1-2) unstable; urgency=medium
 
   * Support Ubuntu Eoan (19.10)
 
  -- Joshua Boniface <joshua@boniface.me>  Tue, 22 Oct 2019 14:01:54 -0400
 
-jellyfin-ffmpeg (4.2.1-1) unstable; urgency=medium
+veso-ffmpeg (4.2.1-1) unstable; urgency=medium
 
   * New upstream version 4.2.1
 
  -- Joshua Boniface <joshua@boniface.me>  Fri, 27 Sep 2019 20:13:25 -0400
 
-jellyfin-ffmpeg (4.0.4-3) unstable; urgency=medium
+veso-ffmpeg (4.0.4-3) unstable; urgency=medium
 
   * Use libfontconfig to allow baked-in subtitle support
   * Upgrade nVidia headers to 9.0.18.1
 
  -- Joshua Boniface <joshua@boniface.me>  Tue, 14 May 2019 23:24:39 -0400
 
-jellyfin-ffmpeg (4.0.4-2) unstable; urgency=medium
+veso-ffmpeg (4.0.4-2) unstable; urgency=medium
 
   * Correct build bug and reenable nvenc/nvdec
 
  -- Joshua Boniface <joshua@boniface.me>  Wed, 01 May 2019 23:36:59 -0400
 
-jellyfin-ffmpeg (4.0.4-1) unstable; urgency=medium
+veso-ffmpeg (4.0.4-1) unstable; urgency=medium
 
   * New upstream version 4.0.4
   * Add Ubuntu Disco support
@@ -55,35 +55,35 @@ jellyfin-ffmpeg (4.0.4-1) unstable; urgency=medium
 
  -- Joshua Boniface <joshua@boniface.me>  Mon, 29 Apr 2019 23:20:37 -0400
 
-jellyfin-ffmpeg (4.0.3-5) unstable; urgency=medium
+veso-ffmpeg (4.0.3-5) unstable; urgency=medium
 
   * Add support for nvenv/nvdec transcoding on amd64
   * Move output binaries to /usr/lib
 
  -- Joshua Boniface <joshua@boniface.me>  Tue, 19 Mar 2019 09:14:31 -0400
 
-jellyfin-ffmpeg (4.0.3-4) unstable; urgency=medium
+veso-ffmpeg (4.0.3-4) unstable; urgency=medium
 
   * Clean up flags to match Emby builds and remove superfluous dependencies
   * Support VAAPI
 
  -- Joshua Boniface <joshua@boniface.me>  Tue, 05 Mar 2019 09:15:04 -0500
 
-jellyfin-ffmpeg (4.0.3-3) unstable; urgency=medium
+veso-ffmpeg (4.0.3-3) unstable; urgency=medium
 
   * Move binaries to /usr/share to keep compat with system ffmpeg
 
  -- Joshua Boniface <joshua@boniface.me>  Fri, 22 Feb 2019 23:31:07 -0500
 
-jellyfin-ffmpeg (4.0.3-2) unstable; urgency=medium
+veso-ffmpeg (4.0.3-2) unstable; urgency=medium
 
   * Use 'Provides: ffmpeg' to avoid breaking other packages
 
  -- Joshua Boniface <joshua@boniface.me>  Sun, 17 Feb 2019 01:03:32 -0500
 
-jellyfin-ffmpeg (4.0.3-1) unstable; urgency=medium
+veso-ffmpeg (4.0.3-1) unstable; urgency=medium
 
-  * Static binary build for Jellyfin purposes
+  * Static binary build for Veso purposes
 
  -- Joshua Boniface <joshua@boniface.me>  Fri, 15 Feb 2019 20:12:52 -0500
 
